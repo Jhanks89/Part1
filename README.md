@@ -1,10 +1,19 @@
 <head>
-    <meta charset="utf-8">
-    <title>CNIT 133 - HW4, Part 1</title>
-    <meta name="description" content="Web Page for HW Assignment 4 of CNIT 133 - Javascript">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 </head>
 <body>
 <section>
@@ -16,7 +25,7 @@
       <h2>While Statement:</h2>
       <p id="while-sum">The sum of 3 + 6 + 9 + 12 + 15 + 18 + 21 is 84.</p>
       <p id="while-product">The product of 3 * 6 * 9 * 12 * 15 * 18 * 21 is 11,022,480.</p>
-      <p class="drag-box">*(drag this entire box around, it moves via JQuery UI!)</p>
+      <p class="drag-box">*(drag the results area around, it moves!)</p>
     </div>
     <!-- <div class="explanation">
       <h3>Use Cases:</h3>
