@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+<body>
 <section>
     <p class="explanation">Below, a For Statement is calculating and printing the sum and product of every fourth integer from 5 - 21 inclusive. In the second section, a While Statement is calculating and printing the sum and product of every third integer from 3 - 21 inclusive.</p>
     <div id="drag" class="hw4-part1-divbox ui-draggable ui-draggable-handle" style="position: relative; width: 720px; inset: -9px auto auto -94px; height: 361.188px;">
@@ -61,3 +62,4 @@
      $( "#drag" ).draggable();
     });
 </script>
+</body>
